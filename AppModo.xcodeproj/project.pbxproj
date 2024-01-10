@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		BFD60FB42B4ECF19004E3953 /* AppModoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FB32B4ECF19004E3953 /* AppModoApp.swift */; };
-		BFD60FB62B4ECF19004E3953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FB52B4ECF19004E3953 /* ContentView.swift */; };
-		BFD60FB82B4ECF19004E3953 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FB72B4ECF19004E3953 /* Item.swift */; };
+		BFD60FB62B4ECF19004E3953 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FB52B4ECF19004E3953 /* Login.swift */; };
 		BFD60FBA2B4ECF1B004E3953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD60FB92B4ECF1B004E3953 /* Assets.xcassets */; };
 		BFD60FBD2B4ECF1B004E3953 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD60FBC2B4ECF1B004E3953 /* Preview Assets.xcassets */; };
-		BFD60FC72B4ECF1B004E3953 /* AppModoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FC62B4ECF1B004E3953 /* AppModoTests.swift */; };
-		BFD60FD12B4ECF1B004E3953 /* AppModoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FD02B4ECF1B004E3953 /* AppModoUITests.swift */; };
-		BFD60FD32B4ECF1B004E3953 /* AppModoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FD22B4ECF1B004E3953 /* AppModoUITestsLaunchTests.swift */; };
+		BFD60FE22B4EE3C0004E3953 /* LoginActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FE12B4EE3C0004E3953 /* LoginActionButtonView.swift */; };
+		BFD60FE52B4EE3F9004E3953 /* EyeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FE42B4EE3F9004E3953 /* EyeButtonView.swift */; };
+		BFD60FE82B4EE43F004E3953 /* PasswordDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FE72B4EE43F004E3953 /* PasswordDotView.swift */; };
+		BFD60FEC2B4EE6CA004E3953 /* UserAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FEB2B4EE6CA004E3953 /* UserAvatarView.swift */; };
+		BFD60FEF2B4EE7C6004E3953 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FEE2B4EE7C6004E3953 /* StringUtils.swift */; };
+		BFD60FF22B4EEBD8004E3953 /* Keypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FF12B4EEBD8004E3953 /* Keypad.swift */; };
+		BFD60FF92B4EF8E9004E3953 /* KeypadTextButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FF82B4EF8E9004E3953 /* KeypadTextButtonView.swift */; };
+		BFD60FFD2B4EFCF1004E3953 /* KeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FFC2B4EFCF1004E3953 /* KeypadView.swift */; };
+		BFD60FFF2B4F0AA8004E3953 /* DigitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD60FFE2B4F0AA8004E3953 /* DigitView.swift */; };
+		BFD610012B4F0AC4004E3953 /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD610002B4F0AC4004E3953 /* DotView.swift */; };
+		BFD610042B4F0BC7004E3953 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD610032B4F0BC7004E3953 /* Colors.swift */; };
+		BFD610062B4F0E37004E3953 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD610052B4F0E37004E3953 /* Spacing.swift */; };
+		BFD6100A2B4F0F17004E3953 /* ImageKeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD610092B4F0F17004E3953 /* ImageKeypadView.swift */; };
+		BFD6100C2B4F0F6B004E3953 /* NumberKeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD6100B2B4F0F6B004E3953 /* NumberKeypadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,15 +47,25 @@
 /* Begin PBXFileReference section */
 		BFD60FB02B4ECF19004E3953 /* AppModo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppModo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD60FB32B4ECF19004E3953 /* AppModoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModoApp.swift; sourceTree = "<group>"; };
-		BFD60FB52B4ECF19004E3953 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BFD60FB72B4ECF19004E3953 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BFD60FB52B4ECF19004E3953 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		BFD60FB92B4ECF1B004E3953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFD60FBC2B4ECF1B004E3953 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFD60FC22B4ECF1B004E3953 /* AppModoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppModoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFD60FC62B4ECF1B004E3953 /* AppModoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModoTests.swift; sourceTree = "<group>"; };
 		BFD60FCC2B4ECF1B004E3953 /* AppModoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppModoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFD60FD02B4ECF1B004E3953 /* AppModoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModoUITests.swift; sourceTree = "<group>"; };
-		BFD60FD22B4ECF1B004E3953 /* AppModoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFD60FE12B4EE3C0004E3953 /* LoginActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginActionButtonView.swift; sourceTree = "<group>"; };
+		BFD60FE42B4EE3F9004E3953 /* EyeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeButtonView.swift; sourceTree = "<group>"; };
+		BFD60FE72B4EE43F004E3953 /* PasswordDotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDotView.swift; sourceTree = "<group>"; };
+		BFD60FEB2B4EE6CA004E3953 /* UserAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAvatarView.swift; sourceTree = "<group>"; };
+		BFD60FEE2B4EE7C6004E3953 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		BFD60FF12B4EEBD8004E3953 /* Keypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keypad.swift; sourceTree = "<group>"; };
+		BFD60FF82B4EF8E9004E3953 /* KeypadTextButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadTextButtonView.swift; sourceTree = "<group>"; };
+		BFD60FFC2B4EFCF1004E3953 /* KeypadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
+		BFD60FFE2B4F0AA8004E3953 /* DigitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitView.swift; sourceTree = "<group>"; };
+		BFD610002B4F0AC4004E3953 /* DotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+		BFD610032B4F0BC7004E3953 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		BFD610052B4F0E37004E3953 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		BFD610092B4F0F17004E3953 /* ImageKeypadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageKeypadView.swift; sourceTree = "<group>"; };
+		BFD6100B2B4F0F6B004E3953 /* NumberKeypadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberKeypadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				BFD60FB22B4ECF19004E3953 /* AppModo */,
-				BFD60FC52B4ECF1B004E3953 /* AppModoTests */,
-				BFD60FCF2B4ECF1B004E3953 /* AppModoUITests */,
 				BFD60FB12B4ECF19004E3953 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,9 +114,12 @@
 		BFD60FB22B4ECF19004E3953 /* AppModo */ = {
 			isa = PBXGroup;
 			children = (
+				BFD610022B4F0BBA004E3953 /* Constants */,
+				BFD60FF02B4EEBCA004E3953 /* Model */,
+				BFD60FED2B4EE7B6004E3953 /* Utilities */,
+				BFD60FDF2B4EE3A0004E3953 /* Views */,
 				BFD60FB32B4ECF19004E3953 /* AppModoApp.swift */,
-				BFD60FB52B4ECF19004E3953 /* ContentView.swift */,
-				BFD60FB72B4ECF19004E3953 /* Item.swift */,
+				BFD60FB52B4ECF19004E3953 /* Login.swift */,
 				BFD60FB92B4ECF1B004E3953 /* Assets.xcassets */,
 				BFD60FBB2B4ECF1B004E3953 /* Preview Content */,
 			);
@@ -113,21 +134,78 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		BFD60FC52B4ECF1B004E3953 /* AppModoTests */ = {
+		BFD60FDF2B4EE3A0004E3953 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BFD60FC62B4ECF1B004E3953 /* AppModoTests.swift */,
+				BFD60FF32B4EEC96004E3953 /* Keypad */,
+				BFD60FE92B4EE6B1004E3953 /* User */,
+				BFD60FE62B4EE42C004E3953 /* Password */,
+				BFD60FE02B4EE3A9004E3953 /* Buttons */,
 			);
-			path = AppModoTests;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		BFD60FCF2B4ECF1B004E3953 /* AppModoUITests */ = {
+		BFD60FE02B4EE3A9004E3953 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				BFD60FD02B4ECF1B004E3953 /* AppModoUITests.swift */,
-				BFD60FD22B4ECF1B004E3953 /* AppModoUITestsLaunchTests.swift */,
+				BFD60FE12B4EE3C0004E3953 /* LoginActionButtonView.swift */,
+				BFD60FE42B4EE3F9004E3953 /* EyeButtonView.swift */,
 			);
-			path = AppModoUITests;
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		BFD60FE62B4EE42C004E3953 /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				BFD60FE72B4EE43F004E3953 /* PasswordDotView.swift */,
+				BFD60FFE2B4F0AA8004E3953 /* DigitView.swift */,
+				BFD610002B4F0AC4004E3953 /* DotView.swift */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+		BFD60FE92B4EE6B1004E3953 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				BFD60FEB2B4EE6CA004E3953 /* UserAvatarView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		BFD60FED2B4EE7B6004E3953 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BFD60FEE2B4EE7C6004E3953 /* StringUtils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BFD60FF02B4EEBCA004E3953 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFD60FF12B4EEBD8004E3953 /* Keypad.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFD60FF32B4EEC96004E3953 /* Keypad */ = {
+			isa = PBXGroup;
+			children = (
+				BFD60FF82B4EF8E9004E3953 /* KeypadTextButtonView.swift */,
+				BFD60FFC2B4EFCF1004E3953 /* KeypadView.swift */,
+				BFD610092B4F0F17004E3953 /* ImageKeypadView.swift */,
+				BFD6100B2B4F0F6B004E3953 /* NumberKeypadView.swift */,
+			);
+			path = Keypad;
+			sourceTree = "<group>";
+		};
+		BFD610022B4F0BBA004E3953 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BFD610032B4F0BC7004E3953 /* Colors.swift */,
+				BFD610052B4F0E37004E3953 /* Spacing.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +338,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFD60FB62B4ECF19004E3953 /* ContentView.swift in Sources */,
-				BFD60FB82B4ECF19004E3953 /* Item.swift in Sources */,
+				BFD60FFF2B4F0AA8004E3953 /* DigitView.swift in Sources */,
+				BFD60FE52B4EE3F9004E3953 /* EyeButtonView.swift in Sources */,
+				BFD6100A2B4F0F17004E3953 /* ImageKeypadView.swift in Sources */,
+				BFD6100C2B4F0F6B004E3953 /* NumberKeypadView.swift in Sources */,
+				BFD60FE82B4EE43F004E3953 /* PasswordDotView.swift in Sources */,
+				BFD60FB62B4ECF19004E3953 /* Login.swift in Sources */,
+				BFD60FE22B4EE3C0004E3953 /* LoginActionButtonView.swift in Sources */,
+				BFD610012B4F0AC4004E3953 /* DotView.swift in Sources */,
+				BFD60FF92B4EF8E9004E3953 /* KeypadTextButtonView.swift in Sources */,
+				BFD610062B4F0E37004E3953 /* Spacing.swift in Sources */,
+				BFD60FEC2B4EE6CA004E3953 /* UserAvatarView.swift in Sources */,
+				BFD610042B4F0BC7004E3953 /* Colors.swift in Sources */,
+				BFD60FFD2B4EFCF1004E3953 /* KeypadView.swift in Sources */,
+				BFD60FF22B4EEBD8004E3953 /* Keypad.swift in Sources */,
 				BFD60FB42B4ECF19004E3953 /* AppModoApp.swift in Sources */,
+				BFD60FEF2B4EE7C6004E3953 /* StringUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +361,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFD60FC72B4ECF1B004E3953 /* AppModoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +368,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFD60FD12B4ECF1B004E3953 /* AppModoUITests.swift in Sources */,
-				BFD60FD32B4ECF1B004E3953 /* AppModoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +522,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +552,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
